@@ -34,7 +34,7 @@ const Movie = props => {
 
   return (
     <div className="save-wrapper">
-      {/* <div className="movie-card">
+      <div className="movie-card">
         <h2>{title}</h2>
         <div className="movie-director">
           Director: <em>{director}</em>
@@ -49,8 +49,8 @@ const Movie = props => {
             {star}
           </div>
         ))}
-      </div> */}
-      <MovieCard movie={movie} />
+      </div>
+      {/* <MovieCard movie={movie} /> */}
       <div className="save-button" onClick={() => props.saveMovie(movie)}>
         Save
       </div>
